@@ -43,7 +43,7 @@ const boxMove = (numberSlot,arrowSlot)=>{
 		numberSlot.item(0).innerHTML = randomNumber
 		console.log("./assets"+randomArrow+".svg")
 		arrowSlot.item(0).src = "./assets/"+randomArrow+".svg"
-	},4000)
+	},1000)
 
 }
 
